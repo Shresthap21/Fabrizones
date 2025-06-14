@@ -10,8 +10,8 @@ const Contact = () => {
     <section className="flex justify-center mt-[10rem]">
 
 
-    <div className="w-auto rounded-t-[30px] flex flex-col items-center font-urbanist py-16 px-10 bg-white">
-  <div className="flex flex-col lg:flex-row items-start justify-between mb-[12rem]">
+    <div className="w-auto rounded-t-[30px] flex flex-col items-center font-urbanist py-16 px-8 bg-white">
+  <div className="flex flex-col lg:flex-row mb-[12rem]">
     {/* Left Content */}
     <div className="">
       {/* Heading and content */}

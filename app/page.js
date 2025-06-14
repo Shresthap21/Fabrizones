@@ -17,12 +17,12 @@ export default function Home() {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       />
-      <Navbar/>
+      {/* <Navbar/> */}
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
         <h1 className="font-cannu text-[88px] leading-tight">Elevate<br />Your Realm</h1>
 
-        {/* Bottom Card */}
+       
         <div className="bg-[#F9F9FB] flex gap-x-[8rem] px-6 py-6 rounded-xl mt-[8rem] items-center">
           <div className="font-cannu text-[#121C2A] text-6xl text-left leading-[1.1]">Elevate<br />Your Realm</div>
           <div className="text-right font-urbanist">
