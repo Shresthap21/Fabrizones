@@ -1,28 +1,44 @@
-import React from 'react'
-import Button from './Button';
+"use client";
+
+import React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import Button from "./Button";
 
 const Navbar = () => {
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
+
   return (
-         <nav className="absolute top-0 left-0 w-full flex justify-between items-center px-16 py-4 z-10 text-white">
-      
-      <div className="flex items-center">
-        <img src="/assets/images/F-icon.png" alt="F Icon" />
-        <img src="/assets/images/fabri-icon.png" alt="Fabri Icon"/>
+    <nav
+      className={`absolute top-0 left-0 w-full flex justify-between items-center z-50 transition-all duration-500 ${
+        isHomePage
+          ? "bg-transparent text-white px-16 py-4"
+          : "bg-white text-black shadow-md my-6 px-16"
+      }`}
+    >
+      <div>
+        <img
+          src="/assets/images/Fabrizone.png"
+          alt="Fabrizone Logo"
+          className={`w-[20rem] transition duration-300 ${
+            isHomePage ? "" : "invert"
+          }`}
+        />
       </div>
 
-      <div className="flex items-center gap-12">
-        <ul className="flex gap-[50px] text-xl font-urbanist text-[#DDDDDDCC]">
-          <li className="cursor-pointer">Home</li>
-          <li className="cursor-pointer">About Us</li>
-          <li className="cursor-pointer">Services</li>
-          <li className="cursor-pointer">Products</li>
-          <li className="cursor-pointer">Contact Us</li>
+      <div className="flex items-center gap-16">
+        <ul className="flex gap-[3rem] text-xl font-urbanist">
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about-us">About Us</Link></li>
+          <li><Link href="/services">Services</Link></li>
+          <li><Link href="/products">Products</Link></li>
+          <li><Link href="/contact">Contact Us</Link></li>
         </ul>
-        <Button />
+        <Button isHomePage={isHomePage}/>
       </div>
-
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;

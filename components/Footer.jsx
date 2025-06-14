@@ -4,11 +4,10 @@ import { FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-[#0B1320] text-white px-8 md:px-20 py-16 font-urbanist h-auto">
-      <div className="flex flex-col lg:flex-row justify-between">
+      <div className="flex flex-col lg:flex-row justify-between items-center">
         <div className="space-y-6 max-w-md">
-          <div className="flex items-center">
-            <img src="/assets/images/F-icon.png" alt="Logo" className="h-[5rem]" />
-            <img src="/assets/images/fabri-icon.png" alt="" className="w-[20rem]"/>
+          <div className="">
+            <img src="/assets/images/Fabrizone.png" alt="Logo" className="-ml-8" />
           </div>
           <p className="text-lg font-light text-[#F4F4F4]">
             Get in touch with us for an in-depth one to one session.
