@@ -7,7 +7,7 @@ import Footer from "./Footer";
 const Contact = () => {
   return (
     <>
-    <section className="flex justify-center mt-[10rem]">
+    <section className="flex justify-center mt-[10rem] mx-[5rem]">
 
 
     <div className="w-auto rounded-t-[30px] flex flex-col items-center font-urbanist py-16 px-8 bg-white">

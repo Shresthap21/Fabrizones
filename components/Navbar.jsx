@@ -33,7 +33,7 @@ const Navbar = () => {
           <li><Link href="/about-us">About Us</Link></li>
           <li><Link href="/services">Services</Link></li>
           <li><Link href="/products">Products</Link></li>
-          <li><Link href="/contact">Contact Us</Link></li>
+          <li><Link href="/contact-us">Contact Us</Link></li>
         </ul>
         <Button isHomePage={isHomePage}/>
       </div>

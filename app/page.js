@@ -17,7 +17,6 @@ export default function Home() {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       />
-      {/* <Navbar/> */}
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
         <h1 className="font-cannu text-[88px] leading-tight">Elevate<br />Your Realm</h1>
@@ -101,7 +100,6 @@ export default function Home() {
 <OurServices/>
 <OurProducts/>
 <Client/>
-<Contact/>
 
     </div>
   );
