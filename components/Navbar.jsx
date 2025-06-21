@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Button from "./Button";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -32,7 +33,10 @@ const Navbar = () => {
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about-us">About Us</Link></li>
           <li><Link href="/services">Services</Link></li>
-          <li><Link href="/products">Products</Link></li>
+          <li className="flex items-center gap-1 cursor-pointer">
+  <span>Products</span>
+  <RiArrowDropDownLine />
+</li>
           <li><Link href="/contact-us">Contact Us</Link></li>
         </ul>
         <Button isHomePage={isHomePage}/>
