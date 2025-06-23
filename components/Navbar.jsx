@@ -98,7 +98,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <Button isHomePage={isHomePage} />
+          <Button isHomePage={isHomePage} isNavbar={true} />
         </div>
       </nav>
 
@@ -108,7 +108,7 @@ const Navbar = () => {
           onMouseLeave={() => setIsHovered(false)}
           className="absolute left-0 top-[100px] w-full bg-white z-40 shadow-md"
         >
-          <div className="mx-auto px-12 py-8">
+          <div className="mx-auto">
             <ProductsDropdown />
           </div>
         </div>

@@ -50,11 +50,11 @@ const services = [
 const page = () => {
   return (
     <div className="pt-[12rem] flex flex-col items-center space-y-14">
-      <div className="bg-[#F9F9FB] w-[85rem] py-4 px-8 rounded-[30px] font-urbanist flex justify-between items-center">
+      <div className="bg-[#F9F9FB] overflow-hidden w-[85rem] py-4 pl-8 rounded-[30px] font-urbanist flex justify-between items-center">
         <div className="text-[70px] text-[#333333] font-semibold">
           Our Services
         </div>
-        <div className="bg-[#FFFFFF] flex items-center py-6">
+        <div className="bg-[#FFFFFF] flex items-center py-6 ">
           <p className="text-[24px] text-[#4C545E] w-[90%]">
             Luxury Interiors | Bespoke Furnishings | Intelligent Automation
           </p>

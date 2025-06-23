@@ -11,9 +11,9 @@ const page = () => {
     <div>
       <div className="pt-[12rem] flex flex-col items-center space-y-12 ">
         <div className="">
-          <div className="bg-[#F9F9FB] w-[85rem] py-4 px-8 rounded-[30px] font-urbanist flex justify-between items-center">
+          <div className="bg-[#F9F9FB] overflow-hidden w-[85rem] py-4 pl-8 rounded-[30px] font-urbanist flex justify-between items-center">
             <div className="text-[70px] font-semibold">About us</div>
-            <div className="bg-[#FFFFFF] flex items-center py-6">
+            <div className="bg-[#FFFFFF] flex items-center pr-8  py-6">
               <p className="font-extralight text-[24px] text-[#666666]">
                 Discover how Fabrizones was built — and the design values <br />{" "}
                 that continue to inspire our journey.
@@ -38,7 +38,7 @@ const page = () => {
               purpose.
             </p>
             <div className="flex gap-8 font-urbanist">
-              <Button isHomePage={false} size="medium" />
+              <Button isHomePage={false} size="default" />
               <button className="border border-[#666666] text-[#666666] px-14 py-2 text-lg rounded-md">
                 Explore Services
               </button>
