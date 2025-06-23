@@ -16,25 +16,29 @@ export const serviceData = {
         "title": "Project Estimation",
         "description": "We provide accurate estimates and proposals that balance quality, materials, and budget perfectly.",
         "icon": "/assets/images/our-services/icon2.png",
-        "image": "/assets/images/our-services/card2.jpg"
+        "image": "/assets/images/our-services/card2.jpg",
+        "hoverDesc": 'We provide comprehensive cost breakdowns and accurate projections, helping you make informed decisions while maintaining high quality and aesthetic goals.'
       },
       {
         "title": "Inhouse Fabrication",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon6.png",
-        "image": "/assets/images/our-services/card6.jpg"
+        "image": "/assets/images/our-services/card6.jpg",
+        "hoverDesc": 'Our state-of-the-art facility and skilled craftsmen bring each design to life with unmatched precision, blending technology and hand-finished detailing for exceptional results.'
       },
       {
         "title": "Warehouse Facility",
         "description": "We manage, store, and dispatch materials with efficiency to support seamless project execution.",
         "icon": "/assets/images/our-services/icon1.png",
-        "image": "/assets/images/our-services/card1.jpg"
+        "image": "/assets/images/our-services/card1.jpg",
+        "hoverDesc":'Our organized warehouse operations ensure efficient material storage, tracking, labeling, and dispatch — supporting seamless execution from procurement to final delivery.'
       },
       {
         "title": "Market Research",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon4.png",
-        "image": "/assets/images/our-services/card4.jpg"
+        "image": "/assets/images/our-services/card4.jpg",
+        "hoverDesc": 'We study global trends, customer behavior, and material innovations to craft designs that are not only relevant and elegant but also future-focused and market-ready.'
       }
     ]
   },
@@ -55,25 +59,29 @@ export const serviceData = {
         "title": "Project Estimation",
         "description": "We provide accurate estimates and proposals that balance quality, materials, and budget perfectly.",
         "icon": "/assets/images/our-services/icon2.png",
-        "image": "/assets/images/our-services/card2.jpg"
+        "image": "/assets/images/our-services/card2.jpg",
+        "hoverDesc": 'We provide comprehensive cost breakdowns and accurate projections, helping you make informed decisions while maintaining high quality and aesthetic goals.'
       },
       {
         "title": "Inhouse Fabrication",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon6.png",
-        "image": "/assets/images/our-services/card6.jpg"
+        "image": "/assets/images/our-services/card6.jpg",
+        "hoverDesc": 'Our state-of-the-art facility and skilled craftsmen bring each design to life with unmatched precision, blending technology and hand-finished detailing for exceptional results.'
       },
       {
         "title": "Warehouse Facility",
         "description": "We manage, store, and dispatch materials with efficiency to support seamless project execution.",
         "icon": "/assets/images/our-services/icon1.png",
-        "image": "/assets/images/our-services/card1.jpg"
+        "image": "/assets/images/our-services/card1.jpg",
+        "hoverDesc":'Our organized warehouse operations ensure efficient material storage, tracking, labeling, and dispatch — supporting seamless execution from procurement to final delivery.'
       },
       {
         "title": "Market Research",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon4.png",
-        "image": "/assets/images/our-services/card4.jpg"
+        "image": "/assets/images/our-services/card4.jpg",
+        "hoverDesc": 'We study global trends, customer behavior, and material innovations to craft designs that are not only relevant and elegant but also future-focused and market-ready.'
       }
     ]
   },
@@ -95,25 +103,29 @@ export const serviceData = {
         "title": "Project Estimation",
         "description": "We provide accurate estimates and proposals that balance quality, materials, and budget perfectly.",
         "icon": "/assets/images/our-services/icon2.png",
-        "image": "/assets/images/our-services/card2.jpg"
+        "image": "/assets/images/our-services/card2.jpg",
+        "hoverDesc": 'We provide comprehensive cost breakdowns and accurate projections, helping you make informed decisions while maintaining high quality and aesthetic goals.'
       },
       {
         "title": "Inhouse Fabrication",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon6.png",
-        "image": "/assets/images/our-services/card6.jpg"
+        "image": "/assets/images/our-services/card6.jpg",
+        "hoverDesc": 'Our state-of-the-art facility and skilled craftsmen bring each design to life with unmatched precision, blending technology and hand-finished detailing for exceptional results.'
       },
       {
         "title": "Warehouse Facility",
         "description": "We manage, store, and dispatch materials with efficiency to support seamless project execution.",
         "icon": "/assets/images/our-services/icon1.png",
-        "image": "/assets/images/our-services/card1.jpg"
+        "image": "/assets/images/our-services/card1.jpg",
+        "hoverDesc":'Our organized warehouse operations ensure efficient material storage, tracking, labeling, and dispatch — supporting seamless execution from procurement to final delivery.'
       },
       {
         "title": "Market Research",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon4.png",
-        "image": "/assets/images/our-services/card4.jpg"
+        "image": "/assets/images/our-services/card4.jpg",
+        "hoverDesc": 'We study global trends, customer behavior, and material innovations to craft designs that are not only relevant and elegant but also future-focused and market-ready.'
       }
     ]
   },
@@ -135,25 +147,29 @@ export const serviceData = {
         "title": "Project Estimation",
         "description": "We provide accurate estimates and proposals that balance quality, materials, and budget perfectly.",
         "icon": "/assets/images/our-services/icon2.png",
-        "image": "/assets/images/our-services/card2.jpg"
+        "image": "/assets/images/our-services/card2.jpg",
+        "hoverDesc": 'We provide comprehensive cost breakdowns and accurate projections, helping you make informed decisions while maintaining high quality and aesthetic goals.'
       },
       {
         "title": "Inhouse Fabrication",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon6.png",
-        "image": "/assets/images/our-services/card6.jpg"
+        "image": "/assets/images/our-services/card6.jpg",
+        "hoverDesc": 'Our state-of-the-art facility and skilled craftsmen bring each design to life with unmatched precision, blending technology and hand-finished detailing for exceptional results.'
       },
       {
         "title": "Warehouse Facility",
         "description": "We manage, store, and dispatch materials with efficiency to support seamless project execution.",
         "icon": "/assets/images/our-services/icon1.png",
-        "image": "/assets/images/our-services/card1.jpg"
+        "image": "/assets/images/our-services/card1.jpg",
+        "hoverDesc":'Our organized warehouse operations ensure efficient material storage, tracking, labeling, and dispatch — supporting seamless execution from procurement to final delivery.'
       },
       {
         "title": "Market Research",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon4.png",
-        "image": "/assets/images/our-services/card4.jpg"
+        "image": "/assets/images/our-services/card4.jpg",
+        "hoverDesc": 'We study global trends, customer behavior, and material innovations to craft designs that are not only relevant and elegant but also future-focused and market-ready.'
       }
     ]
   },
@@ -174,25 +190,29 @@ export const serviceData = {
         "title": "Project Estimation",
         "description": "We provide accurate estimates and proposals that balance quality, materials, and budget perfectly.",
         "icon": "/assets/images/our-services/icon2.png",
-        "image": "/assets/images/our-services/card2.jpg"
+        "image": "/assets/images/our-services/card2.jpg",
+        "hoverDesc": 'We provide comprehensive cost breakdowns and accurate projections, helping you make informed decisions while maintaining high quality and aesthetic goals.'
       },
       {
         "title": "Inhouse Fabrication",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon6.png",
-        "image": "/assets/images/our-services/card6.jpg"
+        "image": "/assets/images/our-services/card6.jpg",
+        "hoverDesc": 'Our state-of-the-art facility and skilled craftsmen bring each design to life with unmatched precision, blending technology and hand-finished detailing for exceptional results.'
       },
       {
         "title": "Warehouse Facility",
         "description": "We manage, store, and dispatch materials with efficiency to support seamless project execution.",
         "icon": "/assets/images/our-services/icon1.png",
-        "image": "/assets/images/our-services/card1.jpg"
+        "image": "/assets/images/our-services/card1.jpg",
+        "hoverDesc":'Our organized warehouse operations ensure efficient material storage, tracking, labeling, and dispatch — supporting seamless execution from procurement to final delivery.'
       },
       {
         "title": "Market Research",
         "description": "We study market trends to guide practical and elegant design decisions for every unique project.",
         "icon": "/assets/images/our-services/icon4.png",
-        "image": "/assets/images/our-services/card4.jpg"
+        "image": "/assets/images/our-services/card4.jpg",
+        "hoverDesc": 'We study global trends, customer behavior, and material innovations to craft designs that are not only relevant and elegant but also future-focused and market-ready.'
       }
     ]
   },
