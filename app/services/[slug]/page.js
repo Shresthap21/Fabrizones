@@ -1,4 +1,5 @@
 import { serviceData } from "@/data/services";
+import Button from "@/components/Button";
 
 export default function Page({ params }) {
   const { slug } = params;
@@ -35,17 +36,11 @@ export default function Page({ params }) {
               </p>
             </div>
 
-            <div className="flex gap-8">
-              <a href={data.section.buttons[0].link}>
-                <button className="bg-black text-white px-4 py-2 text-lg rounded-md">
-                  {data.section.buttons[0].label}
-                </button>
-              </a>
-              <a href={data.section.buttons[1].link}>
-                <button className="border border-[#666666] text-[#666666] px-9 py-2 text-lg rounded-md">
-                  {data.section.buttons[1].label}
-                </button>
-              </a>
+            <div className="flex gap-8 font-urbanist">
+              <Button isHomePage={false} size="medium" />
+              <button className="border border-[#666666] text-[#666666] px-14 py-2 text-lg rounded-md">
+                Explore Services
+              </button>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import OurProducts from "@/components/OurProducts";
 import OurServices from "@/components/OurServices";
+import Button from "@/components/Button";
 export default function Home() {
   return (
     <div>
@@ -35,13 +36,11 @@ export default function Home() {
           </div>
             </div>
           <div className="flex gap-4 justify-end mt-6 font-urbanist">
-            <button className="bg-black text-white px-4 py-2 text-sm">
-              Schedule a Consultation
-            </button>
-            <button className="border border-[#666666] text-[#666666] px-9 py-2 text-sm">
-              Explore Services
-            </button>
-          </div>
+  <Button isHomePage={false} size="small" />
+  <button className="border border-[#666666] text-[#666666] px-9 py-2 text-sm">
+    Explore Services
+  </button>
+</div>
           </div>
         </div>
       </div>

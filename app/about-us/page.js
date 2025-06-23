@@ -3,6 +3,7 @@ import AboutTeam from "@/components/AboutTeam";
 import Contact from "@/components/Contact";
 import Navbar from "@/components/Navbar";
 import React from "react";
+import Button from "@/components/Button";
 
 const page = () => {
   return (
@@ -37,10 +38,8 @@ const page = () => {
               purpose.
             </p>
             <div className="flex gap-8 font-urbanist">
-              <button className="bg-black text-white px-4 py-2 text-lg rounded-md">
-                Schedule a Consultation
-              </button>
-              <button className="border border-[#666666] text-[#666666] px-9 py-2 text-lg rounded-md">
+              <Button isHomePage={false} size="medium" />
+              <button className="border border-[#666666] text-[#666666] px-14 py-2 text-lg rounded-md">
                 Explore Services
               </button>
             </div>
