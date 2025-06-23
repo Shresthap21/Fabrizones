@@ -12,10 +12,10 @@ export default function Page({ params }) {
     <div className="pt-[12rem] mx-[6rem] flex flex-col items-center space-y-12">
       <div className="w-full flex flex-col gap-y-20">
         {/* Header */}
-        <div className="bg-[#F9F9FB] w-full py-5 px-10 rounded-[30px] flex justify-between font-urbanist">
+        <div className="bg-[#F9F9FB] w-full py-5 pl-8 overflow-hidden rounded-[30px] flex justify-between font-urbanist">
           <div className="">
-            <div className="text-[60px] font-semibold">{data.title}</div>
-            <div className="font-extralight text-[22px] text-[#666666]">
+            <div className="text-[70px] font-semibold">{data.title}</div>
+            <div className="font-extralight text-[24px] text-[#666666]">
               {data.tagline}
             </div>
           </div>
@@ -86,17 +86,17 @@ export default function Page({ params }) {
       </div>
 
       {/* Lower container */}
-      <div className="bg-[#F9F9FB] w-full py-8 px-12 rounded-[30px] grid grid-cols-2 items-center font-urbanist">
-        <div>
+      <div className="bg-[#F9F9FB] w-full py-8 pl-12 rounded-[30px] grid grid-cols-2 items-center font-urbanist">
+        
           <div className="text-[50px] leading-[1.2] font-semibold">
             Create the Perfect <br /> Backdrop
           </div>
-        </div>
+      
 
         <div className="flex justify-end">
-          <div className="bg-white px-6 py-4 flex gap-10">
-            <Button isHomePage={false} size="medium" />
-            <button className="border border-[#666666] text-[#666666] px-6 py-3 text-base rounded-sm font-medium hover:bg-[#F0F0F0] transition-all">
+          <div className="bg-white px-20 py-8 flex justify-center gap-10">
+            <Button isHomePage={false} size="default" />
+            <button className="border border-[#666666] text-[#666666] px-8 py-3 text-base rounded-sm font-medium hover:bg-[#F0F0F0] transition-all">
               Explore Services
             </button>
           </div>

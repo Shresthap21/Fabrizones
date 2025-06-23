@@ -67,5 +67,137 @@ Whether you’re restoring heirloom furniture or creating a fresh look, our team
         "Doorstep consultation and removal-installation services"
       ]
     }
-  }
+  },
+  "blinds": {
+    title: "Upholstery",
+    tagline: "Reimagine Comfort Through Tailored Textiles",
+    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    introSection: {
+      heading: "Style Meets Durability",
+      description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
+Our curated fabric selection includes luxurious textures and hard-wearing materials designed to enhance both aesthetics and longevity.
+Whether you’re restoring heirloom furniture or creating a fresh look, our team ensures a flawless fit and finish every time.`
+    },
+    whyChoose: {
+      heading: "Our Upholstery Services Include:",
+      points: [
+        "Upholstery for residential and commercial furniture",
+        "Durable fabrics: suede, velvet, leatherette, jacquard, linen blends",
+        "Custom patterns, textures, and piping options",
+        "Cushion filling, lining, and frame reinforcement",
+        "Fabric protection and stain-resistant coating",
+        "Doorstep consultation and removal-installation services"
+      ]
+    }
+  },
+  "fabrics": {
+    title: "Upholstery",
+    tagline: "Reimagine Comfort Through Tailored Textiles",
+    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    introSection: {
+      heading: "Style Meets Durability",
+      description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
+Our curated fabric selection includes luxurious textures and hard-wearing materials designed to enhance both aesthetics and longevity.
+Whether you’re restoring heirloom furniture or creating a fresh look, our team ensures a flawless fit and finish every time.`
+    },
+    whyChoose: {
+      heading: "Our Upholstery Services Include:",
+      points: [
+        "Upholstery for residential and commercial furniture",
+        "Durable fabrics: suede, velvet, leatherette, jacquard, linen blends",
+        "Custom patterns, textures, and piping options",
+        "Cushion filling, lining, and frame reinforcement",
+        "Fabric protection and stain-resistant coating",
+        "Doorstep consultation and removal-installation services"
+      ]
+    }
+  },
+  "wall-treatment": {
+    title: "Upholstery",
+    tagline: "Reimagine Comfort Through Tailored Textiles",
+    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    introSection: {
+      heading: "Style Meets Durability",
+      description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
+Our curated fabric selection includes luxurious textures and hard-wearing materials designed to enhance both aesthetics and longevity.
+Whether you’re restoring heirloom furniture or creating a fresh look, our team ensures a flawless fit and finish every time.`
+    },
+    whyChoose: {
+      heading: "Our Upholstery Services Include:",
+      points: [
+        "Upholstery for residential and commercial furniture",
+        "Durable fabrics: suede, velvet, leatherette, jacquard, linen blends",
+        "Custom patterns, textures, and piping options",
+        "Cushion filling, lining, and frame reinforcement",
+        "Fabric protection and stain-resistant coating",
+        "Doorstep consultation and removal-installation services"
+      ]
+    }
+  },
+  "flooring": {
+    title: "Upholstery",
+    tagline: "Reimagine Comfort Through Tailored Textiles",
+    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    introSection: {
+      heading: "Style Meets Durability",
+      description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
+Our curated fabric selection includes luxurious textures and hard-wearing materials designed to enhance both aesthetics and longevity.
+Whether you’re restoring heirloom furniture or creating a fresh look, our team ensures a flawless fit and finish every time.`
+    },
+    whyChoose: {
+      heading: "Our Upholstery Services Include:",
+      points: [
+        "Upholstery for residential and commercial furniture",
+        "Durable fabrics: suede, velvet, leatherette, jacquard, linen blends",
+        "Custom patterns, textures, and piping options",
+        "Cushion filling, lining, and frame reinforcement",
+        "Fabric protection and stain-resistant coating",
+        "Doorstep consultation and removal-installation services"
+      ]
+    }
+  },
+  "outdoor-shades": {
+    title: "Upholstery",
+    tagline: "Reimagine Comfort Through Tailored Textiles",
+    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    introSection: {
+      heading: "Style Meets Durability",
+      description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
+Our curated fabric selection includes luxurious textures and hard-wearing materials designed to enhance both aesthetics and longevity.
+Whether you’re restoring heirloom furniture or creating a fresh look, our team ensures a flawless fit and finish every time.`
+    },
+    whyChoose: {
+      heading: "Our Upholstery Services Include:",
+      points: [
+        "Upholstery for residential and commercial furniture",
+        "Durable fabrics: suede, velvet, leatherette, jacquard, linen blends",
+        "Custom patterns, textures, and piping options",
+        "Cushion filling, lining, and frame reinforcement",
+        "Fabric protection and stain-resistant coating",
+        "Doorstep consultation and removal-installation services"
+      ]
+    }
+  },
+  "home-automation": {
+    title: "Upholstery",
+    tagline: "Reimagine Comfort Through Tailored Textiles",
+    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    introSection: {
+      heading: "Style Meets Durability",
+      description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
+Our curated fabric selection includes luxurious textures and hard-wearing materials designed to enhance both aesthetics and longevity.
+Whether you’re restoring heirloom furniture or creating a fresh look, our team ensures a flawless fit and finish every time.`
+    },
+    whyChoose: {
+      heading: "Our Upholstery Services Include:",
+      points: [
+        "Upholstery for residential and commercial furniture",
+        "Durable fabrics: suede, velvet, leatherette, jacquard, linen blends",
+        "Custom patterns, textures, and piping options",
+        "Cushion filling, lining, and frame reinforcement",
+        "Fabric protection and stain-resistant coating",
+        "Doorstep consultation and removal-installation services"
+      ]
+    }
+  },
 };
