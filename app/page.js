@@ -5,7 +5,8 @@ import Button from "@/components/Button";
 export default function Home() {
   return (
     <div>
-      <div className="relative w-full h-[850px] overflow-hidden">
+      <div className="relative w-full h-screen overflow-hidden">
+        <div className="h-screen w-full absolute top-0 bg-black bg-opacity-20 z-[2]"></div>
         <video
           src="/assets/videos/landing.mp4"
           autoPlay
@@ -15,8 +16,8 @@ export default function Home() {
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         />
 
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center -my-[2rem]">
-          <h1 className="font-cannu drop-shadow-lg font-[550] text-[88px] leading-tight">
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
+          <h1 className="font-cannu drop-shadow-lg font-[550] text-[88px] leading-tight mt-10">
             Elevate
             <br />
             Your Realm

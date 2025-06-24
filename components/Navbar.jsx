@@ -1,42 +1,64 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Button from "./Button";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import ProductsDropdown from "./ProductsDropdown";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
 
 const Navbar = () => {
   const pathname = usePathname();
-  const [isClickedOpen, setIsClickedOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  const isHomePage = pathname === "/" && !(isClickedOpen || isHovered);
+  const [isClickedOpen, setIsClickedOpen] = useState(false);
+
+  const timeoutRef = useRef(null);
+
+  const handleMouseEnter = () => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setIsHovered(false);
+    }, 120); // Matches HoverCard delay
+  };
+
+  const showDropdown = isHovered || isClickedOpen;
+  const isHomePage = pathname === "/" && !showDropdown;
 
   const toggleClick = () => {
     setIsClickedOpen((prev) => {
-      const nextState = !prev;
-      if (!nextState) {
-        setIsHovered(false);
-      }
-      return nextState;
+      const next = !prev;
+      if (!next) setIsHovered(false);
+      return next;
     });
   };
-
-  const showDropdown = isClickedOpen || isHovered;
 
   const getLinkColor = (href) => {
     const isProducts = href === "/products";
     const isActive = isProducts ? showDropdown : pathname === href;
 
     if (isProducts) {
-      return isActive ? "text-[#111B29] font-semibold" : "text-[#97A3B7] font-medium";
+      return isActive
+        ? "text-[#111B29] font-semibold"
+        : "text-[#97A3B7] font-medium";
     }
 
     if (pathname === "/") {
-      return isActive ? "text-white font-semibold" : "text-[#DDDDDDCC] font-medium";
+      return isActive
+        ? "text-white font-semibold"
+        : "text-[#DDDDDDCC] font-medium";
     } else {
-      return isActive ? "text-[#111B29] font-semibold" : "text-[#97A3B7] font-medium";
+      return isActive
+        ? "text-[#111B29] font-semibold"
+        : "text-[#97A3B7] font-medium";
     }
   };
 
@@ -53,7 +75,9 @@ const Navbar = () => {
           <img
             src="/assets/images/Fabrizone.png"
             alt="Fabrizone Logo"
-            className={`w-[18rem] transition duration-300 ${isHomePage ? "" : "invert"}`}
+            className={`w-[18rem] transition duration-300 ${
+              isHomePage ? "" : "invert"
+            }`}
           />
         </div>
 
@@ -76,19 +100,36 @@ const Navbar = () => {
             </li>
 
             <li
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              className="relative"
             >
-              <div
-                onClick={toggleClick}
-                className={`flex items-center gap-1 cursor-pointer select-none ${getLinkColor("/products")}`}
-              >
-                <span>Products</span>
-                <RiArrowDropDownLine
-                  size={30}
-                  className={`transition-transform ${showDropdown ? "rotate-180" : ""}`}
-                />
-              </div>
+              <HoverCard open={showDropdown}>
+                <HoverCardTrigger
+                  asChild
+                  className={`flex items-center gap-1 cursor-pointer select-none ${getLinkColor(
+                    "/products"
+                  )}`}
+                >
+                  <div onClick={toggleClick}>
+                    <span>Products</span>
+                    <RiArrowDropDownLine
+                      size={30}
+                      className={`transition-transform ${
+                        showDropdown ? "rotate-180" : ""
+                      }`}
+                    />
+                  </div>
+                </HoverCardTrigger>
+
+                <HoverCardContent
+                  className="w-full p-0 mt-6 shadow-none rounded-none"
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  <ProductsDropdown />
+                </HoverCardContent>
+              </HoverCard>
             </li>
 
             <li>
@@ -101,18 +142,6 @@ const Navbar = () => {
           <Button isHomePage={isHomePage} isNavbar={true} />
         </div>
       </nav>
-
-      {showDropdown && (
-        <div
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-          className="absolute left-0 top-[100px] w-full bg-white z-40 shadow-md"
-        >
-          <div className="mx-auto">
-            <ProductsDropdown />
-          </div>
-        </div>
-      )}
     </>
   );
 };

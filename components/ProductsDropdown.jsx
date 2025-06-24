@@ -17,8 +17,8 @@ const products = [
 const ProductsDropdown = () => {
   return (
     
-      <div className="relative mt-3 font-urbanist w-full px-[5.5rem] pb-14 ">
-        <div className="w-full absolute top-0 left-0 h-[1px] bg-black  z-50"></div>
+      <div className="relative mt-3 font-urbanist w-[95rem] px-[5.5rem] pb-14 ">
+        {/* <div className="w-full absolute top-0 left-0 h-[1px] bg-black  z-50"></div> */}
         <h2 className="mb-6 pt-5 font-semibold text-[#97A3B7] text-sm">OUR PRODUCTS</h2>
 
       <div className="flex  gap-x-12">
