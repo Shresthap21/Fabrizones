@@ -17,7 +17,7 @@ const products = [
 const ProductsDropdown = () => {
   return (
     
-      <div className="relative mt-3 font-urbanist w-[95rem] px-[5.5rem] pb-14 ">
+      <div className="relative font-urbanist w-[95rem] px-[5.5rem] pb-14 ">
         {/* <div className="w-full absolute top-0 left-0 h-[1px] bg-black  z-50"></div> */}
         <h2 className="mb-6 pt-5 font-semibold text-[#97A3B7] text-sm">OUR PRODUCTS</h2>
 
@@ -49,7 +49,7 @@ const ProductsDropdown = () => {
         <div className="absolute right-0 top-0 bg-[#FAFBFD] min-h-full p-6 pr-20 ">
           <p className="text-gray-400 text-sm uppercase font-semibold mb-2">Insight</p>
           <img src="/assets/images/our-products/Illustration.jpg" alt="Insight" className="mb-4 rounded-[15px]" />
-          <p className="text-base w-[80%] text-[#111B29] font-medium">
+          <p className="text-base font-spacegrotesk w-[80%] text-[#111B29] font-medium">
             Choosing the Right Drapes for Your Space
           </p>
         </div>

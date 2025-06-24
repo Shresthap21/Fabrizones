@@ -19,7 +19,11 @@ module.exports = {
   			cannu: [
   				'Cannu',
   				'sans-serif'
-  			]
+  			],
+			spacegrotesk: [
+				'Space Grotesk',
+				'sans-serif'
+			]
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
