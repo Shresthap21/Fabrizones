@@ -12,11 +12,11 @@ const Button = ({ isHomePage, size = "default", isNavbar = false }) => {
 
   const arrowTranslate =
     size === "small"
-      ? "group-hover:translate-x-[158px]"
+      ? "group-hover:translate-x-[160px]"
       : "group-hover:translate-x-[200px]";
   const textTranslate =
     size === "small"
-      ? "group-hover:-translate-x-[28px]"
+      ? "group-hover:-translate-x-[32px]"
       : "group-hover:-translate-x-[40px]";
 
   return (
