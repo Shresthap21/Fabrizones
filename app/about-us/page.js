@@ -4,6 +4,7 @@ import Contact from "@/components/Contact";
 import Navbar from "@/components/Navbar";
 import React from "react";
 import Button from "@/components/Button";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -39,9 +40,9 @@ const page = () => {
             </p>
             <div className="flex gap-8 font-urbanist">
               <Button isHomePage={false} size="default" />
-              <button className="border border-[#666666] text-[#666666] px-14 py-2 text-lg rounded-md">
-                Explore Services
-              </button>
+              <Link href="/services" className="border border-[#666666] text-[#666666] px-14 py-3 text-base rounded-sm font-medium hover:bg-[#F0F0F0] transition-all">
+              Explore Services
+            </Link>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { productData } from "@/data/products";
 import Button from "@/components/Button";
+import Link from "next/link";
 
 export default function Page({ params }) {
   const { slug } = params;
@@ -96,9 +97,9 @@ export default function Page({ params }) {
         <div className="flex justify-end">
           <div className="bg-white px-20 py-8 flex justify-center gap-10">
             <Button isHomePage={false} size="default" />
-            <button className="border border-[#666666] text-[#666666] px-8 py-3 text-base rounded-sm font-medium hover:bg-[#F0F0F0] transition-all">
+            <Link href="/services" className="border border-[#666666] text-[#666666] px-8 py-3 text-base rounded-sm font-medium hover:bg-[#F0F0F0] transition-all">
               Explore Services
-            </button>
+            </Link>
           </div>
         </div>
       </div>
