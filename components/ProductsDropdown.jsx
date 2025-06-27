@@ -6,12 +6,12 @@ import { FiLayout } from "react-icons/fi";
 const products = [
   { label: "Curtains and Drapery", icon: <FiLayout/>},
   { label: "Blinds", icon: <LuBlinds />},
-  { label: "Fabrics", icon: "/assets/images/our-products/icons-dropdown/fabrics-icon.jpg"},
+  { label: "Fabrics", icon: "/assets/compressed/our-products/icons-dropdown/fabrics-icon.jpg"},
   { label: "Upholstery", icon: <LuArmchair/>},
   { label: "Wall Treatment", icon: <LuBrickWall />},
-  { label: "Flooring", icon: "/assets/images/our-products/icons-dropdown/flooring-icon.jpg"},
-  { label: "Outdoor Shades", icon: "/assets/images/our-products/icons-dropdown/outdoor-icon.jpg"},
-  { label: "Home Automation", icon: "/assets/images/our-products/icons-dropdown/home-icon.jpg"},
+  { label: "Flooring", icon: "/assets/compressed/our-products/icons-dropdown/flooring-icon.jpg"},
+  { label: "Outdoor Shades", icon: "/assets/compressed/our-products/icons-dropdown/outdoor-icon.jpg"},
+  { label: "Home Automation", icon: "/assets/compressed/our-products/icons-dropdown/home-icon.jpg"},
 ];
 
 const ProductsDropdown = () => {
@@ -48,7 +48,7 @@ const ProductsDropdown = () => {
         {/* Insight Box */}
         <div className="absolute right-0 top-0 bg-[#FAFBFD] min-h-full p-6 pr-20 ">
           <p className="text-gray-400 text-sm uppercase font-semibold mb-2">Insight</p>
-          <img src="/assets/images/our-products/Illustration.jpg" alt="Insight" className="mb-4 rounded-[15px]" />
+          <img src="/assets/compressed/our-products/Illustration.jpg" alt="Insight" className="mb-4 rounded-[15px]" />
           <p className="text-base font-spacegrotesk w-[80%] text-[#111B29] font-medium">
             Choosing the Right Drapes for Your Space
           </p>

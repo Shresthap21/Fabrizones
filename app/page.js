@@ -100,31 +100,31 @@ export default function Home() {
       <section className="flex gap-6 justify-center px-4 mt-[10rem]">
         <div>
           <img
-            src="/assets/images/img-1.jpg"
+            src="/assets/compressed/img-1.jpg"
             className="w-[300px] h-[480px] border-[7px] border-[#896256]"
           />
         </div>
         <div>
           <img
-            src="/assets/images/img-2.jpg"
+            src="/assets/compressed/img-2.jpg"
             className="w-[300px] h-[480px] border-[7px] border-[#896256] relative top-[8rem]"
           />
         </div>
         <div>
           <img
-            src="/assets/images/img-3.jpg"
+            src="/assets/compressed/img-3.jpg"
             className="w-[300px] h-[480px] border-[7px] border-[#896256]"
           />
         </div>
         <div>
           <img
-            src="/assets/images/img-4.jpg"
+            src="/assets/compressed/img-4.jpg"
             className="w-[300px] h-[480px] border-[7px] border-[#896256] relative top-[8rem]"
           />
         </div>
         <div>
           <img
-            src="/assets/images/img-5.jpg"
+            src="/assets/compressed/img-5.jpg"
             className="w-[300px] h-[480px] border-[7px] border-[#896256]"
           />
         </div>

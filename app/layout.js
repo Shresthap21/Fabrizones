@@ -17,7 +17,7 @@ export const metadata = {
     siteName: "Fabrizones",
     images: [
       {
-        url: "https://fabrizones.vercel.app/assets/images/OpenGraph.jpg",
+        url: "https://fabrizones.vercel.app/assets/compressed/OpenGraph.jpg",
         width: 1200,
         height: 630,
         alt: "Fabrizones - Custom Drapes, Upholstery, and Home Automation",
@@ -31,7 +31,7 @@ export const metadata = {
     title: "Fabrizones",
     description:
       "Experience the best in custom drapes, upholstery, and home automation—where every detail enhances your home with elegance and every design creates a seamless blend of comfort and style.",
-    images: ["https://fabrizones.vercel.app/assets/images/OpenGraph.jpg"],
+    images: ["https://fabrizones.vercel.app/assets/compressed/OpenGraph.jpg"],
   },
 };
 

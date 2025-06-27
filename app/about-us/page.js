@@ -23,7 +23,7 @@ const page = () => {
         </div>
         <div className="bg-[#F9F9FB] w-[85rem] grid grid-cols-2 rounded-[30px] space-x-10">
           <div>
-            <img src="/assets/images/aboutus/about.png" className="p-14" />
+            <img src="/assets/compressed/aboutus/about.png" className="p-14" />
           </div>
 
           <div className="font-urbanist flex flex-col justify-center gap-y-10">

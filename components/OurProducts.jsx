@@ -1,14 +1,14 @@
 import React from "react";
 
 const productData = [
-  { src: "/assets/images/our-products/pro1.jpg", label: "Curtains and Drapery" },
-  { src: "/assets/images/our-products/pro2.jpg", label: "Blinds" },
-  { src: "/assets/images/our-products/pro3.jpg", label: "Upholstery" },
-  { src: "/assets/images/our-products/pro4.jpg", label: "Wallpaper" },
-  { src: "/assets/images/our-products/pro5.jpg", label: "Fabrics" },
-  { src: "/assets/images/our-products/pro7.png", label: "Outdoor Shades" },
-  { src: "/assets/images/our-products/pro6.jpg", label: "Flooring" },
-  { src: "/assets/images/our-products/pro8.jpg", label: "Automation" },
+  { src: "/assets/compressed/our-products/pro1.jpg", label: "Curtains and Drapery" },
+  { src: "/assets/compressed/our-products/pro2.jpg", label: "Blinds" },
+  { src: "/assets/compressed/our-products/pro3.jpg", label: "Upholstery" },
+  { src: "/assets/compressed/our-products/pro4.jpg", label: "Wallpaper" },
+  { src: "/assets/compressed/our-products/pro5.jpg", label: "Fabrics" },
+  { src: "/assets/compressed/our-products/pro7.png", label: "Outdoor Shades" },
+  { src: "/assets/compressed/our-products/pro6.jpg", label: "Flooring" },
+  { src: "/assets/compressed/our-products/pro8.jpg", label: "Automation" },
 ];
 
 const OurProducts = () => {

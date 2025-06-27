@@ -2,7 +2,7 @@ export const productData = {
   "curtains-and-drapery": {
     title: "Curtains & Drapes",
     tagline: "Tailored Elegance to Frame Your World",
-    heroImage: "/assets/images/our-products/curtain-image.jpg",
+    heroImage: "/assets/compressed/our-products/curtain-image.jpg",
     introSection: {
       heading: "Frame Every View with Style",
       description: `At Fabrizones, our custom-made curtains and drapes are more than just window coverings — they’re statement pieces. Designed to blend functionality with luxurious style, our collections offer privacy, light control, and ambiance tailored to your space. From flowing sheers to blackout drapes, we offer endless combinations to suit every mood and interior palette.
@@ -49,7 +49,7 @@ We bring design, fabric selection, stitching, and fitting under one roof, ensuri
    "upholstery": {
     title: "Upholstery",
     tagline: "Reimagine Comfort Through Tailored Textiles",
-    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    heroImage: "/assets/compressed/our-products/uphoistery-image.jpg",
     introSection: {
       heading: "Style Meets Durability",
       description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
@@ -71,7 +71,7 @@ Whether you’re restoring heirloom furniture or creating a fresh look, our team
   "blinds": {
     title: "Upholstery",
     tagline: "Reimagine Comfort Through Tailored Textiles",
-    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    heroImage: "/assets/compressed/our-products/uphoistery-image.jpg",
     introSection: {
       heading: "Style Meets Durability",
       description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
@@ -93,7 +93,7 @@ Whether you’re restoring heirloom furniture or creating a fresh look, our team
   "fabrics": {
     title: "Upholstery",
     tagline: "Reimagine Comfort Through Tailored Textiles",
-    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    heroImage: "/assets/compressed/our-products/uphoistery-image.jpg",
     introSection: {
       heading: "Style Meets Durability",
       description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
@@ -115,7 +115,7 @@ Whether you’re restoring heirloom furniture or creating a fresh look, our team
   "wall-treatment": {
     title: "Upholstery",
     tagline: "Reimagine Comfort Through Tailored Textiles",
-    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    heroImage: "/assets/compressed/our-products/uphoistery-image.jpg",
     introSection: {
       heading: "Style Meets Durability",
       description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
@@ -137,7 +137,7 @@ Whether you’re restoring heirloom furniture or creating a fresh look, our team
   "flooring": {
     title: "Upholstery",
     tagline: "Reimagine Comfort Through Tailored Textiles",
-    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    heroImage: "/assets/compressed/our-products/uphoistery-image.jpg",
     introSection: {
       heading: "Style Meets Durability",
       description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
@@ -159,7 +159,7 @@ Whether you’re restoring heirloom furniture or creating a fresh look, our team
   "outdoor-shades": {
     title: "Upholstery",
     tagline: "Reimagine Comfort Through Tailored Textiles",
-    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    heroImage: "/assets/compressed/our-products/uphoistery-image.jpg",
     introSection: {
       heading: "Style Meets Durability",
       description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.
@@ -181,7 +181,7 @@ Whether you’re restoring heirloom furniture or creating a fresh look, our team
   "home-automation": {
     title: "Upholstery",
     tagline: "Reimagine Comfort Through Tailored Textiles",
-    heroImage: "/assets/images/our-products/uphoistery-image.jpg",
+    heroImage: "/assets/compressed/our-products/uphoistery-image.jpg",
     introSection: {
       heading: "Style Meets Durability",
       description: `Your furniture deserves a second skin that’s as stylish as it is durable. At Fabrizones, we offer premium upholstery services for sofas, chairs, headboards, and custom furniture.

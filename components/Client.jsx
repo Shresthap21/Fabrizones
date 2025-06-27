@@ -1,11 +1,11 @@
 import React from "react";
 
 const clientLogos = [
-  "/assets/images/clients/client-1.png",
-  "/assets/images/clients/client-2.png",
-  "/assets/images/clients/client-3.png",
-  "/assets/images/clients/client-4.png",
-  "/assets/images/clients/client-5.png",
+  "/assets/compressed/clients/client-1.png",
+  "/assets/compressed/clients/client-2.png",
+  "/assets/compressed/clients/client-3.png",
+  "/assets/compressed/clients/client-4.png",
+  "/assets/compressed/clients/client-5.png",
 ];
 
 const Client = () => {
@@ -22,7 +22,7 @@ const Client = () => {
 
       <div className="relative w-full overflow-hidden">
         <div className="flex animate-scroll whitespace-nowrap gap-x-4">
-          {clientLogos.concat(clientLogos).map((logo, idx) => (
+           {clientLogos.concat(clientLogos).map((logo, idx) => (
             <img  key={idx}
               src={logo}
               alt={`Client ${idx + 1}`}

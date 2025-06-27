@@ -2,48 +2,48 @@ import React from 'react';
 
 const services = [
   {
-    img: '/assets/images/our-services/card1.jpg',
-    icon: '/assets/images/our-services/icon1.png',
+    img: '/assets/compressed/our-services/card1.jpg',
+    icon: '/assets/compressed/our-services/icon1.png',
     title: ['Warehouse', 'Facility'],
     desc: 'We manage, store, and dispatch materials with efficiency to support seamless project execution.',
     hoverDesc:
       'Our organized warehouse operations ensure efficient material storage, tracking, labeling, and dispatch — supporting seamless execution from procurement to final delivery.',
   },
   {
-    img: '/assets/images/our-services/card2.jpg',
-    icon: '/assets/images/our-services/icon2.png',
+    img: '/assets/compressed/our-services/card2.jpg',
+    icon: '/assets/compressed/our-services/icon2.png',
     title: ['Project', 'Estimation'],
     desc: 'We provide accurate estimates and proposals that balance quality, materials, and budget perfectly.',
     hoverDesc:
       'We provide comprehensive cost breakdowns and accurate projections, helping you make informed decisions while maintaining high quality and aesthetic goals.',
   },
   {
-    img: '/assets/images/our-services/card3.jpg',
-    icon: '/assets/images/our-services/icon3.png',
+    img: '/assets/compressed/our-services/card3.jpg',
+    icon: '/assets/compressed/our-services/icon3.png',
     title: ['Design & Concept', 'Development'],
     desc: 'We turn your ideas into real, practical, and elegant design blueprints.',
     hoverDesc:
       'We transform your initial ideas into detailed and feasible design blueprints that align with your vision and functional needs. Our expert design team ensures that every detail is carefully considered, combining creativity and practicality for seamless execution.',
   },
   {
-    img: '/assets/images/our-services/card4.jpg',
-    icon: '/assets/images/our-services/icon4.png',
+    img: '/assets/compressed/our-services/card4.jpg',
+    icon: '/assets/compressed/our-services/icon4.png',
     title: ['Market', 'Research'],
     desc: 'We study market trends to guide practical and elegant design decisions for every unique project.',
     hoverDesc:
       'We study global trends, customer behavior, and material innovations to craft designs that are not only relevant and elegant but also future-focused and market-ready.',
   },
   {
-    img: '/assets/images/our-services/card5.jpg',
-    icon: '/assets/images/our-services/icon5.png',
+    img: '/assets/compressed/our-services/card5.jpg',
+    icon: '/assets/compressed/our-services/icon5.png',
     title: ['Value', 'Engineering'],
     desc: 'We optimize your design’s value using smart materials and cost-effective production techniques.',
     hoverDesc:
       'We evaluate form, function, and cost to enhance product value — selecting the right materials and methods to maintain design integrity within your budget.',
   },
   {
-    img: '/assets/images/our-services/card6.jpg',
-    icon: '/assets/images/our-services/icon6.png',
+    img: '/assets/compressed/our-services/card6.jpg',
+    icon: '/assets/compressed/our-services/icon6.png',
     title: ['Inhouse', 'Fabrication'],
     desc: 'We study market trends to guide practical and elegant design decisions for every unique project.',
     hoverDesc:

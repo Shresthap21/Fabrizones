@@ -6,42 +6,42 @@ const services = [
     title: "Market Research",
     description:
       "We analyze trends and customer preferences to design meaningful, relevant, and forward-looking interior solutions that last.",
-    image: "/assets/images/our-services/card4.jpg",
+    image: "/assets/compressed/our-services/card4.jpg",
     imageFirst: false,
   },
   {
     title: "Design Development",
     description:
       "We translate ideas into refined, executable designs tailored to your needs with elegance and practicality in mind.",
-    image: "/assets/images/our-services/card7.png",
+    image: "/assets/compressed/our-services/card7.png",
     imageFirst: true,
   },
   {
     title: "Inhouse Fabrication",
     description:
       "Our inhouse facility produces high-quality, custom furnishings using advanced machinery and skilled hands.",
-    image: "/assets/images/our-services/card6.jpg",
+    image: "/assets/compressed/our-services/card6.jpg",
     imageFirst: false,
   },
   {
     title: "Warehouse Facility",
     description:
       "Efficient inventory management and precise packaging for timely delivery and smooth operations.",
-    image: "/assets/images/our-services/card1.jpg",
+    image: "/assets/compressed/our-services/card1.jpg",
     imageFirst: true,
   },
   {
     title: "Project Estimation",
     description:
       "Detailed cost analysis and material planning to ensure budget-friendly yet premium-quality proposals.",
-    image: "/assets/images/our-services/card2.jpg",
+    image: "/assets/compressed/our-services/card2.jpg",
     imageFirst: false,
   },
   {
     title: "Value Engineering",
     description:
       "We optimize form, function, and cost using innovative methods without compromising design integrity or quality.",
-    image: "/assets/images/our-services/card5.jpg",
+    image: "/assets/compressed/our-services/card5.jpg",
     imageFirst: true,
   },
 ];
@@ -62,7 +62,7 @@ const page = () => {
 
       <div>
         <img
-          src="/assets/images/our-services/service-img.png"
+          src="/assets/compressed/our-services/service-img.png"
           className="w-[85rem]"
           alt="Our Services"
         />

@@ -75,7 +75,7 @@ export default function Page({ params }) {
                 {/* Image */}
                 <div className="flex-1">
                   <img
-                    src={`/assets/images/our-products/curtains/${type.image}.jpg`}
+                    src={`/assets/compressed/our-products/curtains/${type.image}.jpg`}
                     alt={type.type}
                     className="w-full h-full object-cover"
                   />

@@ -27,7 +27,7 @@ const AboutTeam = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-[4rem] gap-y-[4rem]'>
         {/* Card 1 */}
         <div className='bg-[#F1F1F1] rounded-[20px] overflow-hidden text-center'>
-          <img src='/assets/images/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
+          <img src='/assets/compressed/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
           <div className='py-4 bg-[#EBEBEB]'>
             <p className='font-semibold text-[18px]'>Name Surname</p>
             <p className='text-sm text-[#555]'>Occupation details</p>
@@ -36,7 +36,7 @@ const AboutTeam = () => {
 
         {/* Card 2 */}
         <div className='bg-[#F1F1F1] rounded-[20px] overflow-hidden text-center'>
-          <img src='/assets/images/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
+          <img src='/assets/compressed/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
           <div className='py-4 bg-[#EBEBEB]'>
             <p className='font-semibold text-[18px]'>Name Surname</p>
             <p className='text-sm text-[#555]'>Occupation details</p>
@@ -45,7 +45,7 @@ const AboutTeam = () => {
 
         {/* Card 3 */}
         <div className='bg-[#F1F1F1] rounded-[20px] overflow-hidden text-center'>
-          <img src='/assets/images/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
+          <img src='/assets/compressed/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
           <div className='py-4 bg-[#EBEBEB]'>
             <p className='font-semibold text-[18px]'>Name Surname</p>
             <p className='text-sm text-[#555]'>Occupation details</p>
@@ -54,7 +54,7 @@ const AboutTeam = () => {
 
         {/* Card 4 */}
         <div className='bg-[#F1F1F1] rounded-[20px] overflow-hidden text-center'>
-          <img src='/assets/images/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
+          <img src='/assets/compressed/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
           <div className='py-4 bg-[#EBEBEB]'>
             <p className='font-semibold text-[18px]'>Name Surname</p>
             <p className='text-sm text-[#555]'>Occupation details</p>
@@ -63,7 +63,7 @@ const AboutTeam = () => {
 
         {/* Card 5 */}
         <div className='bg-[#F1F1F1] rounded-[20px] overflow-hidden text-center'>
-          <img src='/assets/images/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
+          <img src='/assets/compressed/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
           <div className='py-4 bg-[#EBEBEB]'>
             <p className='font-semibold text-[18px]'>Name Surname</p>
             <p className='text-sm text-[#555]'>Occupation details</p>
@@ -72,7 +72,7 @@ const AboutTeam = () => {
 
         {/* Card 6 */}
         <div className='bg-[#F1F1F1] rounded-[20px] overflow-hidden text-center'>
-          <img src='/assets/images/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
+          <img src='/assets/compressed/aboutus/person.png' alt='Team Member' className='w-full object-cover' />
           <div className='py-4 bg-[#EBEBEB]'>
             <p className='font-semibold text-[18px]'>Name Surname</p>
             <p className='text-sm text-[#555]'>Occupation details</p>

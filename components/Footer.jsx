@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center">
         <div className="space-y-6 max-w-md">
           <div className="">
-            <img src="/assets/images/Fabrizone.png" alt="Logo" className="-ml-8" />
+            <img src="/assets/compressed/Fabrizone.png" alt="Logo" className="-ml-8" />
           </div>
           <p className="text-lg font-light text-[#F4F4F4]">
             Get in touch with us for an in-depth one to one session.

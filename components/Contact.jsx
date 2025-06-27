@@ -90,7 +90,7 @@ const Contact = () => {
     {/* Right Image */}
     <div className="flex justify-center items-start px-[10rem]">
   <img
-    src="/assets/images/contact/contactFlogo.png"
+    src="/assets/compressed/contact/contactFlogo.png"
     alt="Contact"
     className="w-full h-auto object-contain"
   />

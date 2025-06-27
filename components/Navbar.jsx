@@ -73,7 +73,7 @@ const Navbar = () => {
       >
         <div>
           <img
-            src="/assets/images/Fabrizone.png"
+            src="/assets/compressed/Fabrizone.png"
             alt="Fabrizone Logo"
             className={`w-[18rem] transition duration-300 ${
               isHomePage ? "" : "invert"
