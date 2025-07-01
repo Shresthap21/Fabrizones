@@ -21,8 +21,8 @@ const Button = ({ isHomePage, size = "default", isNavbar = false }) => {
 
   return (
     <button
-      className={`font-urbanist font-normal bg-[#111B29] rounded-md flex items-center justify-center text-white 
-        transform transition-all duration-300 ease-in-out group 
+      className={`font-urbanist font-normal bg-[#111B29] whitespace-nowrap rounded-md flex items-center justify-center text-white 
+        transform transition-all duration-300 ease-in-out group
         ${scaleClass} ${baseSize} ${hoverSize} ${sizeClasses}`}
     >
       <span

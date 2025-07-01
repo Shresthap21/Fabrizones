@@ -8,7 +8,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <>
-    <div>
+    <div className="">
       <div className="pt-[12rem] flex flex-col items-center space-y-12 ">
         <div className="">
           <div className="bg-[#F9F9FB] overflow-hidden w-[85rem] py-4 pl-8 rounded-[30px] font-urbanist flex justify-between items-center">

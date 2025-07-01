@@ -94,14 +94,18 @@ export default function Page({ params }) {
           </div>
       
 
-        <div className="flex justify-end">
-          <div className="bg-white px-20 py-8 flex justify-center gap-10">
-            <Button isHomePage={false} size="default" />
-            <Link href="/services" className="border border-[#666666] text-[#666666] px-8 py-3 text-base rounded-sm font-medium hover:bg-[#F0F0F0] transition-all">
-              Explore Services
-            </Link>
-          </div>
-        </div>
+        <div className="flex justify-center md:justify-end w-full">
+  <div className="bg-white w-full md:w-auto py-5 px-6 md:px-10 overflow-hidden flex flex-col md:flex-row items-center justify-center md:justify-between gap-12 font-urbanist">
+    <Button isHomePage={false} size="default" className="w-full md:w-auto text-center" />
+    <Link
+      href="/services"
+      className="w-full md:w-auto border border-[#666666] text-[#666666] whitespace-nowrap px-10 py-3 text-base rounded-sm font-medium hover:bg-[#F0F0F0] transition-all text-center"
+    >
+      Explore Services
+    </Link>
+  </div>
+</div>
+
       </div>
     </div>
   );
