@@ -26,7 +26,7 @@ export default function Page({ params }) {
 
         {/* image */}
         <div>
-          <img src={data.heroImage} className="rounded-[24px]" />
+          <img src={data.heroImage} className="rounded-[24px] w-full" />
         </div>
 
         {/* introSection */}
@@ -75,7 +75,7 @@ export default function Page({ params }) {
                 {/* Image */}
                 <div className="flex-1">
                   <img
-                    src={`/assets/compressed/our-products/curtains/${type.image}.jpg`}
+                    src={`/assets/compressed/our-products/${data.title}/${type.image}.jpg`}
                     alt={type.type}
                     className="w-full h-full object-cover"
                   />
