@@ -77,7 +77,7 @@ export const productData = {
   blinds: {
     title: "Blinds",
     tagline: "Strong. Simple. Sophisticated.",
-    heroImage: "/assets/compressed/our-products/blinds/Blinds.jpg",
+    heroImage: "/assets/compressed/our-products/Blinds/Blinds.jpg",
     introSection: {
       heading: "Shading That Speaks Luxury",
       description:
