@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
@@ -16,15 +17,15 @@ const Footer = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-3 text-[#F4F4F4] text-lg font-light">
           <div className="space-y-2">
-            <p className="">Home</p>
-            <p className="">About</p>
-            <p className="">Services</p>
-            <p className="">Products</p>
+            <p><Link href="/" className="hover:underline decoration-[1px] underline-offset-2">Home</Link></p>
+            <p><Link href="/about-us" className="hover:underline decoration-[1px] underline-offset-2">About</Link></p>
+            <p><Link href="/services" className="hover:underline decoration-[1px] underline-offset-2">Services</Link></p>
+            {/* <p className="">Products</p> */}
           </div>
           <div className="space-y-2">
-            <p className="">Contact</p>
-            <p className="">Privacy Policy</p>
-            <p className="">Terms of Service</p>
+            <p><Link href="/contact-us" className="hover:underline decoration-[1px] underline-offset-2">Contact</Link></p>
+            <p><Link href="/contact-us" className="hover:underline decoration-[1px] underline-offset-2">Privacy Policy</Link></p>
+            <p><Link href="/contact-us" className="hover:underline decoration-[1px] underline-offset-2">Terms of Service</Link></p>
           </div>
         </div>
       </div>

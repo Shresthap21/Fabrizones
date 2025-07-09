@@ -26,7 +26,7 @@ export default function Page({ params }) {
 
         {/* image */}
         <div>
-          <img src={data.heroImage} className="rounded-[24px] w-full" />
+          <img src={data.heroImage} className="rounded-[24px] w-full max-h-[70vh] object-cover" />
         </div>
 
         {/* introSection */}
