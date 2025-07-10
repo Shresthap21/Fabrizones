@@ -74,7 +74,7 @@ const Navbar = () => {
         className={`absolute top-5 left-0 w-full flex justify-between items-center z-50 transition-all duration-500 px-16
       ${
         isNavTranslucent
-          ? "bg-white/90 backdrop-blur-md text-white"
+          ? "bg-white text-white"
           : isHomePage
           ? "bg-transparent text-white"
           : "bg-white text-black"
@@ -132,9 +132,7 @@ const Navbar = () => {
                 </HoverCardTrigger>
 
                 <HoverCardContent
-                   className={`w-full p-0 mt-6 shadow-none rounded-none transition-all duration-300 ${
-    pathname === "/" ? "bg-white/90 backdrop-blur-md" : "bg-white"
-  }`}
+                   className="w-full p-0 mt-6 shadow-none rounded-none transition-all duration-300 bg-white"
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >

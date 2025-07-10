@@ -65,9 +65,7 @@ const ProductsDropdown = ({isHomePage} ) => {
 
         {/* Insight Box */}
        <div
-  className={`absolute right-0 top-0 min-h-full p-6 pr-20 transition-all duration-300 ${
-    isHomePage ? "bg-white/50 backdrop-blur-md" : "bg-[#FAFBFD]"
-  }`}
+  className="absolute right-0 top-0 min-h-full p-6 pr-20 transition-all duration-300 bg-[#FAFBFD]"
 >
           <p className="text-gray-400 text-sm uppercase font-semibold mb-2">
             Insight
