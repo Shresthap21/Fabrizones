@@ -51,17 +51,17 @@ const Navbar = () => {
     if (isProducts) {
       return isActive
         ? "text-[#111B29] font-semibold"
-        : "text-[#97A3B7] font-medium";
+        : "text-[#2F4F4F] font-semibold";
     }
 
     if (pathname === "/" && !isNavTranslucent) {
       return isActive
         ? "text-white font-semibold"
-        : "text-[#DDDDDDCC] font-medium";
+        : "text-[#2F4F4F] font-medium";
     } else {
       return isActive
         ? "text-[#111B29] font-semibold"
-        : "text-[#97A3B7] font-medium";
+        : "text-[#2F4F4F] font-semibold";
     }
   };
 

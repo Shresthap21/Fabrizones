@@ -20,7 +20,8 @@ const Footer = () => {
             <p><Link href="/" className="hover:underline decoration-[1px] underline-offset-2">Home</Link></p>
             <p><Link href="/about-us" className="hover:underline decoration-[1px] underline-offset-2">About</Link></p>
             <p><Link href="/services" className="hover:underline decoration-[1px] underline-offset-2">Services</Link></p>
-            {/* <p className="">Products</p> */}
+            <p><Link href="/#our-products" className="hover:underline decoration-[1px] underline-offset-2">Products</Link></p>
+
           </div>
           <div className="space-y-2">
             <p><Link href="/contact-us" className="hover:underline decoration-[1px] underline-offset-2">Contact</Link></p>

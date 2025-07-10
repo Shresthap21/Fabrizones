@@ -3,6 +3,7 @@ import OurProducts from "@/components/OurProducts";
 import OurServices from "@/components/OurServices";
 import Button from "@/components/Button";
 import Link from "next/link";
+
 export default function Home() {
   return (
     <div>
@@ -135,7 +136,10 @@ export default function Home() {
       </section>
 
       <OurServices />
-      <OurProducts />
+      <div id="our-products">
+        <OurProducts />
+      </div>
+
       <Client />
     </div>
   );
