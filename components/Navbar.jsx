@@ -13,9 +13,10 @@ import {
 } from "@/components/ui/hover-card";
 
 const Navbar = () => {
+  const [navHovered, setNavHovered] = useState(false);
   const pathname = usePathname();
   const [isHovered, setIsHovered] = useState(false);
-  const [isClickedOpen, setIsClickedOpen] = useState(false);
+  // const [isClickedOpen, setIsClickedOpen] = useState(false);
 
   const timeoutRef = useRef(null);
 
@@ -30,16 +31,18 @@ const Navbar = () => {
     }, 120); // Matches HoverCard delay
   };
 
-  const showDropdown = isHovered || isClickedOpen;
-  const isHomePage = pathname === "/" && !showDropdown;
+  const showDropdown = isHovered;
+  // const isHomePage = pathname === "/" && !showDropdown;
+  const isHomePage = pathname === "/";
+  const isNavTranslucent = pathname === "/" && navHovered;
 
-  const toggleClick = () => {
-    setIsClickedOpen((prev) => {
-      const next = !prev;
-      if (!next) setIsHovered(false);
-      return next;
-    });
-  };
+  // const toggleClick = () => {
+  //   setIsClickedOpen((prev) => {
+  //     const next = !prev;
+  //     if (!next) setIsHovered(false);
+  //     return next;
+  //   });
+  // };
 
   const getLinkColor = (href) => {
     const isProducts = href === "/products";
@@ -51,7 +54,7 @@ const Navbar = () => {
         : "text-[#97A3B7] font-medium";
     }
 
-    if (pathname === "/") {
+    if (pathname === "/" && !isNavTranslucent) {
       return isActive
         ? "text-white font-semibold"
         : "text-[#DDDDDDCC] font-medium";
@@ -63,20 +66,26 @@ const Navbar = () => {
   };
 
   return (
-    <>
+    <div
+      onMouseEnter={() => setNavHovered(true)}
+      onMouseLeave={() => setNavHovered(false)}
+    >
       <nav
-        className={`absolute top-5 left-0 w-full flex justify-between items-center z-50 transition-all duration-500 ${
-          isHomePage
-            ? "bg-transparent text-white px-16"
-            : "bg-white text-black px-16"
-        }`}
+        className={`absolute top-5 left-0 w-full flex justify-between items-center z-50 transition-all duration-500 px-16
+      ${
+        isNavTranslucent
+          ? "bg-white/90 backdrop-blur-md text-white"
+          : isHomePage
+          ? "bg-transparent text-white"
+          : "bg-white text-black"
+      }`}
       >
         <div>
           <img
             src="/assets/compressed/Fabrizone.png"
             alt="Fabrizone Logo"
             className={`w-[18rem] transition duration-300 ${
-              isHomePage ? "" : "invert"
+              isHomePage && !isNavTranslucent ? "" : "invert"
             }`}
           />
         </div>
@@ -111,7 +120,7 @@ const Navbar = () => {
                     "/products"
                   )}`}
                 >
-                  <div onClick={toggleClick}>
+                  <div>
                     <span>Products</span>
                     <RiArrowDropDownLine
                       size={30}
@@ -123,11 +132,13 @@ const Navbar = () => {
                 </HoverCardTrigger>
 
                 <HoverCardContent
-                  className="w-full p-0 mt-6 shadow-none rounded-none"
+                   className={`w-full p-0 mt-6 shadow-none rounded-none transition-all duration-300 ${
+    pathname === "/" ? "bg-white/90 backdrop-blur-md" : "bg-white"
+  }`}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <ProductsDropdown />
+                  <ProductsDropdown isHomePage={isHomePage} />
                 </HoverCardContent>
               </HoverCard>
             </li>
@@ -139,10 +150,10 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <Button isHomePage={isHomePage} isNavbar={true} />
+          <Button isHomePage={isHomePage && !isNavTranslucent} isNavbar={true} />
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 
