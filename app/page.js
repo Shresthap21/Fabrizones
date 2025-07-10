@@ -2,6 +2,7 @@ import Client from "@/components/Client";
 import OurProducts from "@/components/OurProducts";
 import OurServices from "@/components/OurServices";
 import Button from "@/components/Button";
+import Link from "next/link";
 export default function Home() {
   return (
     <div>
@@ -41,9 +42,12 @@ export default function Home() {
               </div>
               <div className="flex gap-4 justify-end mt-6 font-urbanist">
                 <Button isHomePage={false} size="small" />
-                <button className="border border-[#666666] text-[#666666] px-9 py-2 text-sm">
+                <Link
+                  href="/services"
+                  className="w-full flex items-center md:w-auto border border-[#666666] text-[#666666] whitespace-nowrap px-8 text-sm rounded-sm font-medium hover:bg-[#F0F0F0] transition-all text-center"
+                >
                   Explore Services
-                </button>
+                </Link>
               </div>
             </div>
           </div>
